@@ -1,0 +1,51 @@
+.cards {
+    width:28rem;
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+#project {
+    background-color:#F7F7F9;
+    min-height: 100vh;
+    padding:10%;
+}
+
+#home {
+    min-height: 70vh;
+    background-color: #F7F7F9;
+}
+
+#about {
+    background-color: #F7F7F9;
+    min-height: 70vh;
+}
+
+#contact {
+    background-color: #F7F7F9;
+    min-height: 70vh;
+}
+
+.margin-top {
+    margin:200px;
+    text-align: center;
+}
+
+.text-boxes {
+    
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+.github:hover {
+    color:#fdcb6e;
+    cursor:pointer;
+}
+
+.instagram:hover {
+    color:#fdcb6e;
+    cursor:pointer;
+}
+.facebook:hover {
+    color:#fdcb6e;
+    cursor:pointer;
+}
