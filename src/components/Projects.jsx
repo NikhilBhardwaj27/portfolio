@@ -56,16 +56,17 @@ const ProjectCards = (props) => {
         <Card.Text>
           {text}
         </Card.Text>
-        <Button variant="primary" style={{margin:'5px'}}>
           <a href={href} style={{color:'white'}}>
-            View live
+            <Button variant="primary" style={{margin:'5px'}}>
+                View live
+            </Button>
           </a>
-        </Button>
         
-        <Button variant="dark">
           <a href={gitty} style={{color:'white'}}>
-            View on Github</a>
-        </Button>
+            <Button variant="dark">
+              View on Github
+            </Button>
+          </a>
       </Card.Body>
     </Card>
   )
