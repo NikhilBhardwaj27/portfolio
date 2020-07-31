@@ -1,52 +1,53 @@
 .cards {
-    width:28rem;
-    font-size:20px;
-    margin-bottom:20px;
+    width: 28rem;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
 #project {
-    background-color:#F7F7F9;
-    padding:10%;
+    background-color: #F7F7F9;
+    padding: 15%;
 }
 
 #home {
-    min-height: 70vh;
+    min-height: 100vh;
     background-color: #F7F7F9;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 #about {
     background-color: #F7F7F9;
     min-height: 70vh;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 #contact {
     background-color: #F7F7F9;
     min-height: 70vh;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .margin-top {
-    margin:200px;
+    margin: 200px;
     text-align: center;
 }
 
 .text-boxes {
-    margin-bottom:20px;
-    margin-top:20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .github:hover {
-    color:#fdcb6e;
-    cursor:pointer;
+    color: #0080ff;
+    cursor: pointer;
 }
 
 .instagram:hover {
-    color:#fdcb6e;
-    cursor:pointer;
+    color: #0080ff;
+    cursor: pointer;
 }
+
 .facebook:hover {
-    color:#fdcb6e;
-    cursor:pointer;
+    color: #0080ff;
+    cursor: pointer;
 }
