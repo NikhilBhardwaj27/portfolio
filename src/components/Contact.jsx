@@ -60,7 +60,7 @@ const FlipCard = () => {
 
 const ContactForm = () => {
   return (
-    <Form action="POST" data-netlify="true">
+    <Form data-netlify="true">
       <Form.Group controlId="formBasicEmail">
         <Form.Control
           type="text"
