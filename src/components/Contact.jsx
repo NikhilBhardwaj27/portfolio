@@ -60,12 +60,8 @@ const FlipCard = () => {
 
 const ContactForm = () => {
   return (
-    <Form
-      name="contact"
-      method="post"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
-    >
+    <Form name="contact" method="post" data-netlify="true">
+      <input type="hidden" form-name="contact" value="contact" />
       <Form.Group name="group" controlId="formBasicEmail">
         <Form.Control
           type="text"
